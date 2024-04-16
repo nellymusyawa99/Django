@@ -1,4 +1,9 @@
 
+
+
+
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -7,11 +12,13 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
+
 <body>
 
 <div class="container">
   <h2>Registration Form</h2>
-  <form action="/submit_registration" method="post">
+  <form action="/addstudent" method="post">
+      {% csrf_token %}
     <div class="form-group">
       <label for="username">Username:</label>
       <input type="text" class="form-control" id="username" name="username" required>

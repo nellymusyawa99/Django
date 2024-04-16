@@ -5,29 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4268e572-4b2c-4b09-a27c-f4a63bfbff24" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/djangoProjectNelly.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoProjectNelly/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoProjectNelly/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoProjectNelly/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoProjectNelly/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangoProjectNelly/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/templates/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/templates/login.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/registration/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProjectNelly/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProjectNelly/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +28,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/registration" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -53,22 +39,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Django Server.djangoProjectNelly.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.djangoProjectNelly.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="djangoProjectNelly" type="Python.DjangoServer" factoryName="Django server">
       <module name="djangoProjectNelly" />
@@ -114,6 +100,8 @@
       <workItem from="1712043327436" duration="1611000" />
       <workItem from="1712048263025" duration="61000" />
       <workItem from="1712209060527" duration="6985000" />
+      <workItem from="1713244125679" duration="216000" />
+      <workItem from="1713244352362" duration="8409000" />
     </task>
     <servers />
   </component>
