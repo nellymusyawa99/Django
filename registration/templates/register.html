@@ -11,7 +11,9 @@
 
 <div class="container">
   <h2>Registration Form</h2>
-  <form action="/submit_registration" method="post">
+  <form action="/addstudent" method="POST">
+      {% csrf_token %}
+
     <div class="form-group">
       <label for="username">Username:</label>
       <input type="text" class="form-control" id="username" name="username" required>
@@ -31,6 +33,54 @@
     <button type="submit" class="btn btn-primary">Register</button>
   </form>
 </div>
+
+
+<div class="selector2=container">
+    <h1>Students registered</h1>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>username</th>
+            <th>email</th>
+            <th>password</th>
+            <th>edit</th>
+            <th>delete</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for student in data %}
+          <tr>
+              <td>{{ student.name }}</td>
+              <td>{{ student.email }}</td>
+              <td>{{ student.password }}</td>
+              <td>
+                  <a href="/editstudent/{{ student.id }}" type="button" class="btn btn-outline-success">Edit</a>
+              </td>
+              <td>
+                  <a href="/deletestudent/{{ student.id }}" type="button" class="btn btn-outline-danger">Delete</a>
+              </td>
+          </tr>
+        </tbody>
+    </table>
+</div>
+         {% endfor %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- Bootstrap JS -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
