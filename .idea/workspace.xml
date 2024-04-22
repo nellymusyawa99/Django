@@ -11,8 +11,6 @@
       <change afterPath="$PROJECT_DIR$/registration/templates/login.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/registration/templates/register.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/registration/templates/updates.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/registration/templates" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/registration" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -106,7 +104,7 @@
       <workItem from="1713418614098" duration="3999000" />
       <workItem from="1713427675170" duration="5000" />
       <workItem from="1713502755211" duration="3928000" />
-      <workItem from="1713762741860" duration="6906000" />
+      <workItem from="1713762741860" duration="7650000" />
     </task>
     <servers />
   </component>
